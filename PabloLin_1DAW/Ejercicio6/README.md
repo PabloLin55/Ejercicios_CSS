@@ -1,2 +1,2 @@
 En este ejercicio creo una página con unas imágenes que simulan un panel de control.
-La página cuenta con una cabecera con título y botón, una barra lateral con tres links y un grid principal en el que se pondrñan las imágenes.
+La página cuenta con una cabecera con título y botón, una barra lateral con tres links y un grid principal en el que estan las imágenes.
