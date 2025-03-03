@@ -1,0 +1,47 @@
+/*
+Nombre: [Pablo Lin] 
+Curso: [1DAW] 
+Fecha: [28/02/2025] 
+Ejercicio: [Grid Layout] 
+*/
+
+/* ======== SECCIÓN: GRID PRINCIPAL ======== */
+/*Estilo del contenedor, en este caso va a seguir el formato de un grid de  tres columnas y dos filas*/
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 200px;
+    background-color: antiquewhite;
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+}
+/* ======== SECCIÓN: CONTENIDO DEL GRID ======== */
+/*Estilo de cada una de las cajas*/
+.caja {
+
+    background-color: royalblue;
+    border: 3px solid black;
+}
+
+/* ======== SECCIÓN: ESTILOS MAS ESPECÍFICOS======== */
+/*Color de fondo de cajas específicas*/
+.contenedor .caja:nth-child(2) {
+    background-color: yellow;
+}
+
+.contenedor .caja:nth-child(3) {
+    background-color: lightpink;
+}
+
+.contenedor .caja:nth-child(4) {
+    background-color: lightcoral;
+}
+
+.contenedor .caja:nth-child(5) {
+    background-color: lightskyblue;
+}
+
+.contenedor .caja:nth-child(6) {
+    background-color: lightgoldenrodyellow;
+}

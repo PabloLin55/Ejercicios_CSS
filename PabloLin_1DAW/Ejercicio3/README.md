@@ -1,0 +1,1 @@
+En este ejercicio creo una caja con un texto centrado en ella.

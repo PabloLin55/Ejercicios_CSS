@@ -1,0 +1,36 @@
+/*
+Nombre: [Pablo Lin] 
+Curso: [1DAW] 
+Fecha: [28/02/2025] 
+Ejercicio: [FlexBox] 
+*/
+/* ======== SECCIÓN: FLEX PRINCIPAL ======== */
+/*Estilo del contenedor que va a guardar 3 cajas*/
+.contenedor {
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+/* ======== SECCIÓN: CONTENIDO DEL FLEX ======== */
+/*Estilo de cada una de las cajas*/
+.caja {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+/* ======== SECCIÓN: ESTILos MAS ESPECÍFICOs======== */
+/*Estilo más específico de la segunda caja*/
+.contenedor .caja:nth-child(2) {
+    background-color: red;
+}
+/*Estilo más específico de la tercera caja*/
+.contenedor .caja:nth-child(3   ) {
+    background-color: blue;
+}
+

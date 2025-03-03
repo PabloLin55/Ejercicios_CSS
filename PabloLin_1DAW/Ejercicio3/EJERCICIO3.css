@@ -1,0 +1,18 @@
+/*
+Nombre: [Pablo Lin] 
+Curso: [1DAW] 
+Fecha: [28/02/2025] 
+Ejercicio: [Modelo de Caja] 
+*/
+/*Estilo de la caja y el texto dentro de ella*/
+#caja {
+    display: flex;
+    background-color: yellow;
+    width: 300px;
+    height: 150px;
+    border: 5px solid blue;
+    padding:10px;
+    margin:20px;
+    justify-content: center;
+    align-items: center;
+}

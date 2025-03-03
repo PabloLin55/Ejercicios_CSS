@@ -1,0 +1,24 @@
+/*
+Nombre: [Pablo Lin] 
+Curso: [1DAW] 
+Fecha: [28/02/2025] 
+Ejercicio: [Aplicar estilos básicos] 
+*/
+
+/*Estilos generales de ala página*/
+body {
+    background-color:lightgoldenrodyellow;
+    font-family: Arial, sans-serif;
+}
+/*Estilos aplicados a los contenedores donde están los textos de ejemplo*/
+div {
+    border: 2px solid black;
+}
+/*Cada uno de los títulos*/
+h1 {
+    margin: 20px;
+}
+/*Cada uno de los párrafos*/
+p {
+    color:blue;
+}

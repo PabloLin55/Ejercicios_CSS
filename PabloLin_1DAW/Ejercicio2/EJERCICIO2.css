@@ -1,0 +1,22 @@
+/*
+Nombre: [Pablo Lin] 
+Curso: [1DAW] 
+Fecha: [28/02/2025] 
+Ejercicio: [Selectores de CSS] 
+*/
+/*Estilo del primer párrafo*/
+.destacado {
+    color:red;
+}
+/*Estilo dentro del párrafo dentro del contenedor*/
+#caja p{
+    color:green;
+}
+/*Estilo del título*/
+h1 {
+    font-size: 30px;
+}
+/*Estilo del contenedor*/
+div {
+    background-color: gray;
+}
